@@ -1,3 +1,35 @@
+Metadata-Version: 2.1
+Name: mkdocs-gen-files
+Version: 0.5.0
+Summary: MkDocs plugin to programmatically generate documentation pages during the build
+Project-URL: Documentation, https://oprypin.github.io/mkdocs-gen-files/
+Project-URL: Source, https://github.com/oprypin/mkdocs-gen-files
+Project-URL: Issues, https://github.com/oprypin/mkdocs-gen-files/issues
+Project-URL: History, https://github.com/oprypin/mkdocs-gen-files/releases
+Author-email: Oleh Prypin <oleh@pryp.in>
+License-Expression: MIT
+License-File: LICENSE.md
+Keywords: mkdocs,mkdocs-plugin
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Requires-Dist: mkdocs>=1.0.3
+Description-Content-Type: text/markdown
+
 # mkdocs-gen-files
 
 **[Plugin][] for [MkDocs][] to programmatically generate documentation pages during the build**
