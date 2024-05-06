@@ -1,0 +1,10 @@
+---
+Bug-Database: https://github.com/oprypin/mkdocs-gen-files/issues
+Bug-Submit: https://github.com/oprypin/mkdocs-gen-files/issues/new/choose
+Documentation: https://oprypin.github.io/mkdocs-gen-files
+Donation: https://github.com/sponsors/oprypin
+Registry:
+  - Name: PyPI
+    Entry: mkdocs-gen-files
+Repository: https://github.com/oprypin/mkdocs-gen-files
+Repository-Browse: https://github.com/oprypin/mkdocs-gen-files

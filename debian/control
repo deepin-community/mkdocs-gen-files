@@ -1,15 +1,33 @@
-Source: template-repository
-Section: unknown
+Source: mkdocs-gen-files
+Section: python
 Priority: optional
-Maintainer: Tsic404 <liuheng@deepin.org>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Homepage: https://github.com/deepin-community/template-repository
-#Vcs-Browser: https://salsa.debian.org/debian/deepin-community-template-repository
-#Vcs-Git: https://salsa.debian.org/debian/deepin-community-template-repository.git
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Stefano Rivera <stefanor@debian.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ mkdocs,
+ pybuild-plugin-pyproject,
+ python3-all,
+ python3-hatchling,
+ python3-pytest <!nocheck>,
+ python3-pytest-golden <!nocheck>
+Standards-Version: 4.6.2.0
+Testsuite: autopkgtest-pkg-pybuild
+Rules-Requires-Root: no
+Homepage: https://oprypin.github.io/mkdocs-gen-files
+Vcs-Browser: https://salsa.debian.org/python-team/packages/mkdocs-gen-files
+Vcs-Git: https://salsa.debian.org/python-team/packages/mkdocs-gen-files.git
 
-Package: template-repository
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Package: mkdocs-gen-files
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: MkDocs plugin for dynamically generated pages
+ Plugin for MkDocs to programmatically generate documentation pages during the
+ build. The generated documents don't actually appear in the source files, it
+ only *virtually* becomes part of the site to be built by MkDocs.
+ .
+ MkDocs is a fast, simple and downright gorgeous static site generator that's
+ geared towards building project documentation. Documentation source files are
+ written in Markdown, and configured with a single YAML configuration file.
+ .
+ This is a plugin for mkdocs to add additional features.

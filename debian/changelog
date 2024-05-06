@@ -1,5 +1,12 @@
-template-repository (1.0-1) unstable; urgency=medium
+mkdocs-gen-files (0.5.0-2) unstable; urgency=medium
 
-  * Initial release
+  * Upload to unstable.
+  * Support the nocheck built profile.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Stefano Rivera <stefanor@debian.org>  Tue, 26 Dec 2023 17:07:49 -0400
+
+mkdocs-gen-files (0.5.0-1) experimental; urgency=low
+
+  * Initial release.
+
+ -- Stefano Rivera <stefanor@debian.org>  Thu, 07 Dec 2023 09:26:21 -0400
